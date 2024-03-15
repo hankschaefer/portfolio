@@ -1,0 +1,126 @@
+body {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+span {
+    content: "\2190";
+  }
+
+span2 {
+    content: "\2192";
+}
+
+.header{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-left{
+    display: flex;
+    margin-left: auto; 
+    margin-right: 0;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.names {
+    padding: 5px;
+}
+
+body{
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 1000px) {
+    body {
+        padding-top: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.nextpage{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.arrow{
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.arrow2{
+    padding: 2px;
+    cursor: pointer;
+}
+
+.count{
+    padding: 2px;
+}
+
+.buttons{
+    padding-left:20px
+}
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    background-color:white;  /* Modern Browsers */
+  }
+
+#bold{
+    /* font-weight: bold; */
+}
+
+/* #slide show */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.contact {
+    color:lightgray
+}
